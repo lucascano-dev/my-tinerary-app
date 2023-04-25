@@ -10,12 +10,13 @@
   object-fit: cover;
 }
 
-.nav-link {
+.navlink {
   color: #fff;
   font-size: 1.2rem;
   font-weight: 700;
+  text-decoration: none;
 }
 
-.nav-link:hover {
-  color: #0a3c50;
+.navlink:hover {
+  color: #0a4a63;
 }

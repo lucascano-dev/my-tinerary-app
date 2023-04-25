@@ -1,19 +1,21 @@
 import React from "react";
 import "./Header.css";
 
+import { Link } from "react-router-dom";
+
 import navLogo from "../../assets/images/navbar-logo.png";
 
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <Link to={"/"}>
           <img
             className="nav-image"
             src={navLogo}
             alt="logo de viajes por el mundo"
           />
-        </a>
+        </Link>
 
         <button
           className="navbar-toggler"
@@ -31,26 +33,20 @@ const Header = () => {
           className="collapse navbar-collapse justify-content-end"
           id="navbarNav"
         >
-          <ul className="navbar-nav gap-3">
+          <ul className="navbar-nav gap-5">
             <li className="nav-item text-center">
-              <a className="nav-link" href="#">
+              <Link to={"/cities"} className="navlink">
                 Cities
-              </a>
+              </Link>
             </li>
-            <li className="nav-item text-center">
-              <a className="nav-link" href="#">
-                Hotels
-              </a>
+            <li to="" className="nav-item text-center">
+              <Link className="navlink">Hotels</Link>
             </li>
-            <li className="nav-item text-center">
-              <a className="nav-link" href="#">
-                Sign In
-              </a>
+            <li to="" className="nav-item text-center">
+              <Link className="navlink">Sign In</Link>
             </li>
-            <li className="nav-item text-center">
-              <a className="nav-link" href="">
-                Sing Up
-              </a>
+            <li to="" className="nav-item text-center">
+              <Link className="navlink">Sing Up</Link>
             </li>
           </ul>
         </div>
