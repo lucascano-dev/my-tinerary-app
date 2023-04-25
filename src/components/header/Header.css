@@ -1,7 +1,8 @@
 .navbar {
   padding: 0 2rem;
-  background: linear-gradient(to right, #25657e, #689cb1);
-  border-bottom: 3px solid #11475c;
+  /* background: linear-gradient(to right, #25657e, #689cb1); */
+  backdrop-filter: blur(15px);
+  border-bottom: 3px solid #216783;
 }
 
 .nav-image {
