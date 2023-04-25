@@ -1,5 +1,5 @@
 .navbar {
-  padding: 0 2rem;
+  padding: 0.5rem 2rem;
   /* background: linear-gradient(to right, #25657e, #689cb1); */
   backdrop-filter: blur(15px);
   border-bottom: 3px solid #216783;

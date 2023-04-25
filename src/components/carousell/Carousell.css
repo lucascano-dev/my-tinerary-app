@@ -1,0 +1,28 @@
+.carousell-item {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 500px;
+  width: 100%;
+}
+
+.carousell-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousell-caption {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousell-title {
+  color: #fff;
+  font-weight: 700;
+}
+
+.carousell-description {
+  color: #fff;
+  font-weight: 700;
+}
