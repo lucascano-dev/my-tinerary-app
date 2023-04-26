@@ -1,0 +1,113 @@
+.footer {
+  height: auto;
+  width: 100%;
+  background: linear-gradient(to right, #082e3d, #5b8fa3, #87a6b3);
+  border-top: 3px solid #1c5d77;
+  padding: 1rem;
+}
+
+.footer-icon {
+  cursor: pointer;
+  color: #ddddd1;
+  font-size: 1.5rem;
+}
+
+.footer-icon:hover {
+  color: #139eb1;
+}
+
+.footer-github-icon {
+  color: #123972;
+  font-size: 1.5rem;
+}
+
+h6 {
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.title-follow-us {
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.title-copyright {
+  color: #c4c4c4;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.title-developers {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+/* -------------------------- media queries ---------------------- */
+
+@media screen and (max-width: 576px) {
+  .footer-github-icon {
+    color: #123972;
+    font-size: 1.5rem;
+  }
+
+  h6 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .title-follow-us {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .footer-github-icon {
+    color: #123972;
+    font-size: 1.4rem;
+  }
+
+  h6 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+
+  .title-follow-us {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .footer-icon {
+    font-size: 1.8rem;
+  }
+
+  .footer-github-icon {
+    color: #123972;
+    font-size: 1.8rem;
+  }
+
+  h6 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .title-follow-us {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .title-copyright {
+    font-size: 1.5rem;
+  }
+
+  .title-developers {
+    font-size: 1.5rem;
+  }
+}

@@ -26,3 +26,39 @@
   color: #fff;
   font-weight: 700;
 }
+
+/* ----------------------- media queries ----------------------- */
+
+@media screen and (max-width: 576px) {
+  .carousell-title {
+    font-size: 1.3rem;
+  }
+
+  .carousell-description {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .carousell-title {
+    font-size: 1.5rem;
+  }
+
+  .carousell-description {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .carousell-item {
+    height: 800px;
+  }
+
+  .carousell-title {
+    font-size: 2rem;
+  }
+
+  .carousell-description {
+    font-size: 1.3rem;
+  }
+}

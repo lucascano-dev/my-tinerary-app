@@ -1,6 +1,5 @@
 .navbar {
   padding: 0.5rem 2rem;
-  /* background: linear-gradient(to right, #25657e, #689cb1); */
   backdrop-filter: blur(15px);
   border-bottom: 3px solid #216783;
 }
@@ -19,4 +18,48 @@
 
 .navlink:hover {
   color: #0a4a63;
+}
+
+/* ----------------------- media queries ----------------------- */
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    padding: 0.5rem 1.5rem;
+  }
+
+  .nav-image {
+    height: 60px;
+  }
+
+  .navlink {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem 1.5rem;
+  }
+
+  .nav-image {
+    height: 70px;
+  }
+
+  .navlink {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .navbar {
+    padding: 1rem 2rem;
+  }
+
+  .nav-image {
+    height: 100px;
+  }
+
+  .navlink {
+    font-size: 1.7rem;
+  }
 }
