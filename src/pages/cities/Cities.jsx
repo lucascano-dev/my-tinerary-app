@@ -57,7 +57,7 @@ const Cities = () => {
                 <div className="card-body d-flex flex-column justify-content-center align-items-center gap-3">
                   <h5 className="card-title">{city.country}</h5>
                   <h6 className="card-subtitle">{city.city}</h6>
-                  <Link to="" className="cities-btn">
+                  <Link to={`/cities/id/${city._id}`} className="cities-btn">
                     Details
                   </Link>
                 </div>
