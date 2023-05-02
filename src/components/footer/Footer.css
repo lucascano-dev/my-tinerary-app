@@ -55,12 +55,19 @@ h6 {
 
   h6 {
     color: #fff;
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .title-follow-us {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+
+  .title-copyright {
+    font-size: 1rem;
+  }
+
+  .title-developers {
+    font-size: 1rem;
   }
 }
 
@@ -78,6 +85,14 @@ h6 {
 
   .title-follow-us {
     font-size: 1.4rem;
+  }
+
+  .title-copyright {
+    font-size: 1.1rem;
+  }
+
+  .title-developers {
+    font-size: 1.1rem;
   }
 }
 
