@@ -27,14 +27,22 @@ const Footer = () => {
 
           <div className="d-flex justify-content-center align-items-center gap-3 p-2">
             <span className="title-developers">Matias Arias</span>
-            <a href="https://github.com/matiarias" target="_blank">
+            <a
+              href="https://github.com/matiarias"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <BsGithub className="footer-github-icon" />
             </a>
           </div>
 
           <div className="d-flex justify-content-center align-items-center gap-3 p-2">
             <span className="title-developers">Lucas Cano</span>
-            <a href="https://github.com/lucascano-dev" target="_blank">
+            <a
+              href="https://github.com/lucascano-dev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <BsGithub className="footer-github-icon" />
             </a>
           </div>

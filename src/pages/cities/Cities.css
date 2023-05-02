@@ -1,0 +1,162 @@
+.container-loading {
+  height: 80vh;
+  width: 100%;
+}
+
+.spinner {
+  height: 60px;
+  width: 60px;
+  color: #317792;
+}
+
+.container-cards-cities {
+  padding: 150px 1rem 100px;
+}
+
+.title-cities {
+  position: relative;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #12536e;
+  display: inline-block;
+}
+
+.title-cities::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(to right, #25c1ff, #f1f133);
+}
+
+.container-subtitle {
+  max-width: 900px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.cities-subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #424242;
+}
+
+.container-grid-cities {
+  padding: 1rem;
+  width: 100%;
+}
+
+.card {
+  overflow: hidden;
+  box-shadow: 2px 2px 5px 1px #216783;
+}
+
+.card-image-city {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #2e2e2e;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card-subtitle {
+  color: #306f88;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.cities-btn {
+  text-decoration: none;
+  padding: 10px 32px;
+  background-color: #12536e;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 2px #588fa5;
+}
+
+/* ----------------------- media queries ----------------------- */
+
+@media screen and (max-width: 576px) {
+  .title-cities {
+    font-size: 2.9rem;
+  }
+
+  .cities-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .card-image-city {
+    height: 400px;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .card-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .cities-btn {
+    padding: 10px 32px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .title-cities {
+    font-size: 3rem;
+  }
+
+  .cities-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .card-image-city {
+    height: 400px;
+  }
+
+  .card-title {
+    font-size: 1.6rem;
+  }
+
+  .card-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .cities-btn {
+    padding: 10px 32px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .title-cities {
+    font-size: 5rem;
+  }
+
+  .cities-subtitle {
+    font-size: 2.5rem;
+  }
+
+  .card-image-city {
+    height: 450px;
+  }
+
+  .card-title {
+    font-size: 2.2rem;
+  }
+
+  .card-subtitle {
+    font-size: 2rem;
+  }
+
+  .cities-btn {
+    padding: 12px 3rem;
+    font-size: 1.1rem;
+  }
+}
