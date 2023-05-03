@@ -8,6 +8,7 @@ import "./Carousell.css";
 
 const Carousell = () => {
   const [dataCities, setDataCities] = useState([]);
+  console.log(dataCities);
 
   const [loading, setLoading] = useState(true);
 
