@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Spinner from "react-bootstrap/Spinner";
 
 import { carouselData } from "../../utils/carouselData";
+
+import Loading from "../spinner/Loading";
 
 import "./Carousell.css";
 
@@ -21,9 +22,7 @@ const Carousell = () => {
   return (
     <div className="container py-4">
       {loading ? (
-        <div className="text-center">
-          <Spinner animation="border" variant="success" />
-        </div>
+        <Loading />
       ) : (
         <Carousel fade>
           {dataCities.map((city) => (
