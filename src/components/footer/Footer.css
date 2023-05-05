@@ -21,7 +21,7 @@
   font-size: 1.5rem;
 }
 
-h6 {
+.footer-titles {
   color: #fff;
   font-size: 2rem;
   font-weight: 500;
@@ -53,7 +53,7 @@ h6 {
     font-size: 1.5rem;
   }
 
-  h6 {
+  .footer-titles {
     color: #fff;
     font-size: 1.3rem;
   }
@@ -77,7 +77,7 @@ h6 {
     font-size: 1.4rem;
   }
 
-  h6 {
+  .footer-tiles {
     color: #fff;
     font-size: 1.4rem;
   }
@@ -105,7 +105,7 @@ h6 {
     font-size: 1.8rem;
   }
 
-  h6 {
+  .footer-titles {
     color: #fff;
     font-size: 2rem;
   }
