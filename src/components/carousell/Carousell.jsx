@@ -22,7 +22,9 @@ const Carousell = () => {
   return (
     <div className="container py-4">
       {loading ? (
-        <Loading />
+        <div className="text-center py-3">
+          <Loading />
+        </div>
       ) : (
         <Carousel fade>
           {dataCities.map((city) => (

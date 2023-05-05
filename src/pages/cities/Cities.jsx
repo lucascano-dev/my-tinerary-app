@@ -26,7 +26,9 @@ const Cities = () => {
       </div>
 
       {loading ? (
-        <Loading />
+        <div className="container-spinner">
+          <Loading />
+        </div>
       ) : (
         <div className="container-grid-cities row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center align-items-center row-gap-4 gx-3">
           {cities?.map((city) => (

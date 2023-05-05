@@ -23,7 +23,7 @@
 
 h6 {
   color: #fff;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 
@@ -79,7 +79,6 @@ h6 {
 
   h6 {
     color: #fff;
-    font-weight: 500;
     font-size: 1.4rem;
   }
 
@@ -109,13 +108,11 @@ h6 {
   h6 {
     color: #fff;
     font-size: 2rem;
-    font-weight: 500;
   }
 
   .title-follow-us {
     color: #fff;
     font-size: 2rem;
-    font-weight: 500;
   }
 
   .title-copyright {
