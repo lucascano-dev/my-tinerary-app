@@ -1,33 +1,37 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
-import axios from "axios";
+import { useSelector } from "react-redux";
 
 import { Link } from "react-router-dom";
 
-import Spinner from "react-bootstrap/Spinner";
+import Loading from "../../components/spinner/Loading";
 
 import "./Cities.css";
 
 const Cities = () => {
-  const [cities, setCities] = useState([]);
+  const cities = useSelector((state) => state.cities.data);
 
-  const [isLoading, setIsLoading] = useState(true);
+  const loading = useSelector((state) => state.cities.isLoading);
 
-  const getCities = async () => {
-    try {
-      let response = await axios.get("http://localhost:3000/api/cities");
-      setCities(response.data);
-      setIsLoading(false);
-    } catch (error) {
-      console.log(error);
-    }
-  };
+  // const [cities, setCities] = useState([]);
 
-  useEffect(() => {
-    setTimeout(() => {
-      getCities();
-    }, 2000);
-  }, []);
+  // const [isLoading, setIsLoading] = useState(true);
+
+  // const getCities = async () => {
+  //   try {
+  //     let response = await axios.get("http://localhost:3000/api/cities");
+  //     setCities(response.data);
+  //     setIsLoading(false);
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     getCities();
+  //   }, 2000);
+  // }, []);
 
   return (
     <div className="container-fluid container-cards-cities">
@@ -40,10 +44,9 @@ const Cities = () => {
           </p>
         </div>
       </div>
-      {isLoading ? (
-        <div className="container-loading d-flex flex-column justify-content-center align-items-center">
-          <Spinner animation="border" className="spinner" />
-        </div>
+
+      {loading ? (
+        <Loading />
       ) : (
         <div className="container-grid-cities row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center align-items-center row-gap-4 gx-3">
           {cities?.map((city) => (
