@@ -1,6 +1,7 @@
-.container-loading {
+.container-spinner {
   height: 50vh;
   width: 100%;
+  text-align: center;
 }
 
 .container-cards-cities {
@@ -129,6 +130,12 @@
 }
 
 @media screen and (min-width: 1400px) {
+  .container-spinner {
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+  }
+
   .title-cities {
     font-size: 5rem;
   }
