@@ -13,26 +13,6 @@ const Cities = () => {
 
   const loading = useSelector((state) => state.cities.isLoading);
 
-  // const [cities, setCities] = useState([]);
-
-  // const [isLoading, setIsLoading] = useState(true);
-
-  // const getCities = async () => {
-  //   try {
-  //     let response = await axios.get("http://localhost:3000/api/cities");
-  //     setCities(response.data);
-  //     setIsLoading(false);
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     getCities();
-  //   }, 2000);
-  // }, []);
-
   return (
     <div className="container-fluid container-cards-cities">
       <div className="d-flex flex-column justify-content-center align-items-center gap-3">
