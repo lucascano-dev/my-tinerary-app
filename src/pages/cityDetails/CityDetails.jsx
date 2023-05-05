@@ -10,6 +10,8 @@ import { getCitiesById } from "../../redux/slice/cities/citiesSlice";
 
 import Loading from "../../components/spinner/Loading";
 
+import Buttons from "../../components/buttons/Buttons";
+
 import "./CityDetails.css";
 
 const CityDetails = () => {
@@ -36,7 +38,7 @@ const CityDetails = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/cities");
+    navigate(-1);
   };
 
   return (
@@ -62,15 +64,11 @@ const CityDetails = () => {
               <p className="details-paragraph">{city?.description}</p>
             </div>
 
-            <div className="d-grid col-6 mx-auto">
-              <button
-                onClick={handleClick}
-                className="btn btn-outline-info"
-                type="button"
-              >
-                Back to Cities
-              </button>
-            </div>
+            <Buttons
+              text="Back To Cities"
+              handleClick={handleClick}
+              color="btn btn-outline-info"
+            />
           </div>
         </div>
       )}
