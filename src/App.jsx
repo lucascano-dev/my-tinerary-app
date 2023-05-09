@@ -28,7 +28,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       fetchCities();
-    }, 4000);
+    }, 2000);
   });
 
   return (

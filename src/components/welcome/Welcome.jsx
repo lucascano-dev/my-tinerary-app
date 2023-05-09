@@ -31,7 +31,7 @@ const Welcome = () => {
           <Buttons
             text="Explore Cities"
             handleClick={handleClick}
-            color="btn btn-outline-warning"
+            color="btn btn-outline-warning fw-bold py-xxl-2"
           />
         </div>
       </div>
