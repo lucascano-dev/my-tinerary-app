@@ -16,7 +16,7 @@ const Carousell = () => {
     setTimeout(() => {
       setDataCities(carouselData);
       setLoading(false);
-    }, 3000);
+    }, 1000);
   }, []);
 
   return (
