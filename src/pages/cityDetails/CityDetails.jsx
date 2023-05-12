@@ -29,6 +29,13 @@ const CityDetails = () => {
     cityFiltered();
   }, [data]);
 
+  useEffect(() => {
+    window.scroll({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
+
   const cityFiltered = () => {
     if (data.length > 0) {
       dispatch(getCitiesById(params.id));
