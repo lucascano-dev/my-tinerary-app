@@ -22,10 +22,10 @@ const Welcome = () => {
 
         <div className="overlay-container">
           <p className="overlay-paragraph">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quod
-            inventore, voluptatem culpa, quam dolorum doloribus accusantium
-            minus iure nobis iste odio doloremque a non repudiandae ducimus
-            fugit ex. Iusto?
+            Our goal is that you know the beauty of the world and you can travel
+            and have fun getting to know different cultures, landscapes and
+            beautiful people. Here you can find an amazing itinerary of the best
+            cities of the world!
           </p>
 
           <Buttons
