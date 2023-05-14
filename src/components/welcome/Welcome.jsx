@@ -25,7 +25,7 @@ const Welcome = () => {
             Our goal is that you know the beauty of the world and you can travel
             and have fun getting to know different cultures, landscapes and
             beautiful people. Here you can find an amazing itinerary of the best
-            cities of the world!
+            cities of the wosrld!
           </p>
 
           <Buttons
