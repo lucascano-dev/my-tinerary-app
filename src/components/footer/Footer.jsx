@@ -16,14 +16,14 @@ const Footer = () => {
         </div>
 
         <div className="d-flex flex-column justify-content-center align-items-center">
-          <h6>MyTinerary</h6>
+          <h6 className="footer-titles">MyTinerary</h6>
           <span className="title-copyright">
             All rights reserved &#169; 2023
           </span>
         </div>
 
         <div className="d-flex flex-column justify-content-center align-items-center">
-          <h6>Developers</h6>
+          <h6 className="footer-titles">Developers</h6>
 
           <div className="d-flex justify-content-center align-items-center gap-3 p-2">
             <span className="title-developers">Matias Arias</span>

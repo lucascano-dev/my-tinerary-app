@@ -46,7 +46,7 @@ const Header = () => {
               <Link className="navlink">Sign In</Link>
             </li>
             <li to="" className="nav-item text-center">
-              <Link className="navlink">Sing Up</Link>
+              <Link className="navlink">Sign Up</Link>
             </li>
           </ul>
         </div>

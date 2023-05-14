@@ -1,0 +1,301 @@
+/* ------------------------- city details ------------------------- */
+
+.container-loading {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-details {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.details-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-details-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+}
+
+.details-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 3.2rem;
+  text-align: center;
+  text-shadow: 2px 2px 3px #e4dede;
+}
+
+.details-subtitle {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.7rem;
+  text-align: center;
+  text-shadow: 2px 2px 3px #4b8ca7;
+}
+
+.details-container {
+  height: auto;
+  width: 100%;
+  max-width: 990px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.details-paragraph {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* ------------------------- itinerary cards ------------------------- */
+
+.details-itinerary-title {
+  color: #272727;
+  font-weight: 700;
+  font-size: 3.5rem;
+  text-align: center;
+  text-shadow: 2px 2px 3px #4b8ca7;
+}
+
+.itinerary-card {
+  height: 100% !important;
+  box-shadow: 2px 2px 5px 1px #143375;
+}
+
+.card-itinerary-title {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card-itinerary-description {
+  color: #4b4b4b;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.budget-itinerary-price {
+  background-color: #1e5369;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.5rem 3rem;
+  border-radius: 20px;
+}
+
+.budget-itinerary-duration {
+  background-color: #775712;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+}
+
+.budget-itinerary-author {
+  background-color: #5a0f0f;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+}
+
+.itinerary-hashtags {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.title-notfound {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* ----------------------- media queries ----------------------- */
+
+@media screen and (max-width: 576px) {
+  .hero-details-overlay {
+    gap: 0.5rem;
+  }
+  .details-title {
+    font-size: 2.5rem;
+  }
+
+  .details-subtitle {
+    font-size: 1.8rem;
+  }
+
+  .details-paragraph {
+    font-size: 1rem;
+  }
+
+  /* ------------------------- itinerary cards ------------------------- */
+
+  .details-itinerary-title {
+    font-size: 2.7rem;
+  }
+
+  .card-itinerary-title {
+    font-size: 1.8rem;
+  }
+
+  .card-itinerary-description {
+    font-size: 1rem;
+  }
+
+  .budget-itinerary-price {
+    padding: 0.5rem 3rem;
+  }
+
+  .budget-itinerary-duration {
+    padding: 0.5rem 2rem;
+  }
+
+  .budget-itinerary-author {
+    padding: 0.5rem 2rem;
+  }
+
+  .itinerary-hashtags {
+    font-size: 1.1rem;
+  }
+
+  .title-notfound {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .hero-details-overlay {
+    gap: 0.5rem;
+  }
+  .details-title {
+    font-size: 2.8rem;
+  }
+
+  .details-subtitle {
+    font-size: 2.3rem;
+  }
+
+  .details-paragraph {
+    font-size: 1rem;
+  }
+
+  /* ------------------------- itinerary cards ------------------------- */
+
+  .details-itinerary-title {
+    font-size: 2.8rem;
+  }
+
+  .card-itinerary-title {
+    font-size: 1.9rem;
+  }
+
+  .card-itinerary-description {
+    font-size: 1.2rem;
+  }
+
+  .budget-itinerary-price {
+    padding: 0.5rem 3rem;
+  }
+
+  .budget-itinerary-duration {
+    padding: 0.5rem 2rem;
+  }
+
+  .budget-itinerary-author {
+    padding: 0.5rem 2rem;
+  }
+
+  .itinerary-hashtags {
+    font-size: 1.2rem;
+  }
+
+  .title-notfound {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .hero-details-overlay {
+    gap: 1rem;
+  }
+  .details-title {
+    font-size: 5rem;
+  }
+
+  .details-subtitle {
+    font-size: 3.8rem;
+  }
+
+  .details-paragraph {
+    font-size: 1.8rem;
+  }
+
+  /* ------------------------- itinerary cards ------------------------- */
+
+  .details-itinerary-title {
+    font-size: 4.5rem;
+  }
+
+  .card-itinerary-title {
+    font-size: 2.8rem;
+  }
+
+  .card-itinerary-description {
+    font-size: 1.6rem;
+  }
+
+  .budget-itinerary-price {
+    padding: 0.5rem 3rem;
+    font-size: 1.5rem;
+  }
+
+  .budget-itinerary-duration {
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+  }
+
+  .budget-itinerary-author {
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+  }
+
+  .itinerary-hashtags {
+    font-size: 1.5rem;
+  }
+
+  .title-notfound {
+    font-size: 2rem;
+  }
+}

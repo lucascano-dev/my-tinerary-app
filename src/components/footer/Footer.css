@@ -21,9 +21,9 @@
   font-size: 1.5rem;
 }
 
-h6 {
+.footer-titles {
   color: #fff;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 
@@ -53,14 +53,21 @@ h6 {
     font-size: 1.5rem;
   }
 
-  h6 {
+  .footer-titles {
     color: #fff;
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .title-follow-us {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+
+  .title-copyright {
+    font-size: 1rem;
+  }
+
+  .title-developers {
+    font-size: 1rem;
   }
 }
 
@@ -70,14 +77,21 @@ h6 {
     font-size: 1.4rem;
   }
 
-  h6 {
+  .footer-tiles {
     color: #fff;
-    font-weight: 500;
     font-size: 1.4rem;
   }
 
   .title-follow-us {
     font-size: 1.4rem;
+  }
+
+  .title-copyright {
+    font-size: 1.1rem;
+  }
+
+  .title-developers {
+    font-size: 1.1rem;
   }
 }
 
@@ -91,16 +105,14 @@ h6 {
     font-size: 1.8rem;
   }
 
-  h6 {
+  .footer-titles {
     color: #fff;
     font-size: 2rem;
-    font-weight: 500;
   }
 
   .title-follow-us {
     color: #fff;
     font-size: 2rem;
-    font-weight: 500;
   }
 
   .title-copyright {
